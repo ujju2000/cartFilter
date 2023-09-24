@@ -13,7 +13,7 @@ export default function Header() {
         <Navbar bg='dark' variant='dark' >
             <Container>
                 <Navbar.Brand >
-                    <Link to = '/'>Shopping Cart</Link>
+                    <Link to = '/cartFilter/'>Shopping Cart</Link>
                 </Navbar.Brand>
                 <Navbar.Text>
                     <FormControl style={{ width: 500 }}
