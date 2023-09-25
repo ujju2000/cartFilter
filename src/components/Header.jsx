@@ -38,7 +38,7 @@ export default function Header() {
                                 {
                                     cart.map(prod  => <CartItem prod = {prod} />)
                                 }
-                                    <Link to = '/cart'>
+                                    <Link to = '/cartFilter/cart'>
                                         <Button variant = 'primary' >Go to Cart </Button>
                                     </Link>
                                 </>
